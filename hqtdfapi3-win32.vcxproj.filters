@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SRC\common.h" />
+    <ClInclude Include="SRC\hqtdfapi3.h" />
+    <ClInclude Include="SRC\ConfigParser.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ConfigSettings.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\PathHelper.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\Platform.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="redis-cplusplus-client\anet_win32.h">
+      <Filter>redis-cplusplus-client</Filter>
+    </ClInclude>
+    <ClInclude Include="redis-cplusplus-client\redisclient.h">
+      <Filter>redis-cplusplus-client</Filter>
+    </ClInclude>
+    <ClInclude Include="tdfsdkinclude\TDFAPI.h">
+      <Filter>tdfsdkinclude</Filter>
+    </ClInclude>
+    <ClInclude Include="tdfsdkinclude\TDFAPIVersion.h">
+      <Filter>tdfsdkinclude</Filter>
+    </ClInclude>
+    <ClInclude Include="tdfsdkinclude\TDFAPIStruct.h">
+      <Filter>tdfsdkinclude</Filter>
+    </ClInclude>
+    <ClInclude Include="redis-cplusplus-client\redisOpt.h">
+      <Filter>redis-cplusplus-client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\common.cpp" />
+    <ClCompile Include="SRC\hqtdfapi3.cpp" />
+    <ClCompile Include="SRC\main.cpp" />
+    <ClCompile Include="SRC\ConfigParser.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ConfigSettings.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\PathHelper.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\Platform.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="redis-cplusplus-client\anet_win32.c">
+      <Filter>redis-cplusplus-client</Filter>
+    </ClCompile>
+    <ClCompile Include="redis-cplusplus-client\redisOpt.cpp">
+      <Filter>redis-cplusplus-client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{7458dc2c-2ce0-4ad7-8852-84376dc70d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="redis-cplusplus-client">
+      <UniqueIdentifier>{5c391a98-e0ed-410b-aab1-4f1b080e1487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tdfsdkinclude">
+      <UniqueIdentifier>{b3f4744d-3522-461a-a454-73aba22607ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
