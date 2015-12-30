@@ -1,0 +1,13 @@
+ipch/
+obj/
+hqtdf-win32.opensdf
+hqtdf-win32.iniaa
+hqtdf-win32.sdf
+hqtdf-win32.suo
+install/bin/data
+install/bin/hqtdf-win32.exe
+install/bin/hqtdf-win32.exe.manifest
+install/bin/hqtdf-win32.ilk
+install/bin/hqtdf-win32.pdb
+!.gitignore
+.*
